@@ -15,13 +15,20 @@ function gulpR2() {
 		}
 
 		if (file.isBuffer()) {
-			file.contents = swapBuffer(file.contents);
+			try {
+				file.contents = swapBuffer(file.contents);
+			}
+			catch (err) {
+				this.push(file);
+
+				this.emit('error', err);
+			}
 
 			cb(null, file);
 		}
 
 		if (file.isStream()) {
-			this.emit('error', new PluginError(PLUGIN_NAME,  'Streaming not supported'));
+			this.emit('error', new PluginError(PLUGIN_NAME, 'Streaming not supported'));
 
 			return cb();
 		}
