@@ -1,0 +1,27 @@
+{
+  "name": "gulp-r2-css",
+  "version": "0.0.0",
+  "description": "A gulp wrapper for R2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Rob Frampton <rob.g.frampton@gmail.com> (https://github.com/Robert-Frampton)",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "R2": "^1.4.3",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.8.7",
+    "mocha": "^2.0.1"
+  }
+}
