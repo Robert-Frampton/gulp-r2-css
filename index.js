@@ -1,5 +1,5 @@
 var gutil = require('gulp-util');
-var R2 = require('R2');
+var liferayR2 = require('liferay-r2');
 var StringDecoder = require('string_decoder').StringDecoder;
 var through = require('through2');
 
@@ -36,7 +36,7 @@ function gulpR2() {
 }
 
 function swapBuffer(buffer) {
-	var swapped = R2.swap(decoder.write(buffer));
+	var swapped = liferayR2.swap(decoder.write(buffer));
 
 	return new Buffer(swapped);
 }

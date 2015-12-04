@@ -1,18 +1,18 @@
-# gulp-r2-css
+# gulp-liferay-r2-css
 
-gulp-r2-css is a thin wrapper for [R2](https://www.npmjs.com/package/R2), which helps you achieve cross-language layout-friendly websites (including bi-directional text).
+gulp-liferay-r2-css is a thin wrapper for Liferay's fork of [R2](https://www.npmjs.com/package/R2), which helps you achieve cross-language layout-friendly websites (including bi-directional text).
 
 ## Install
 
 ```
-$ npm i gulp-r2-css
+$ npm i gulp-liferay-r2-css
 ```
 
 ## Use
 
 ```js
 var gulp = require('gulp');
-var r2 = require('gulp-r2-css');
+var r2 = require('gulp-liferay-r2-css');
 
 gulp.src('left_to_right.css')
   .pipe(r2())

@@ -1,7 +1,7 @@
 {
-  "name": "gulp-r2-css",
+  "name": "gulp-liferay-r2-css",
   "version": "0.0.1",
-  "description": "A gulp wrapper for R2",
+  "description": "A gulp wrapper for Liferay's fork of R2",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -15,8 +15,8 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "R2": "^1.4.3",
     "gulp-util": "^3.0.7",
+    "liferay-r2": "^0.4.2",
     "through2": "^2.0.0"
   },
   "devDependencies": {
