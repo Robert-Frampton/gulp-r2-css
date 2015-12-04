@@ -1,6 +1,6 @@
 {
   "name": "gulp-r2-css",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A gulp wrapper for R2",
   "main": "index.js",
   "scripts": {
