@@ -11,7 +11,9 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin"
+    "gulpplugin",
+    "liferay",
+    "rtl"
   ],
   "license": "ISC",
   "dependencies": {
