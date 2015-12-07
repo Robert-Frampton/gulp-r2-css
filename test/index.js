@@ -46,7 +46,6 @@ describe('gulp-R2-css', function() {
 			gulp.src(path.join(__dirname, 'assets', 'broken.css'))
 				.pipe(gulpR2())
 				.on('error', function (err) {
-					assert.equal(err.line, 6);
 					assert.equal(err.message, 'property missing \':\' near line 6:4');
 
 					done();
