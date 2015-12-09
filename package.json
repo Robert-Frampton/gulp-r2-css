@@ -7,13 +7,14 @@
     "test": "mocha"
   },
   "author": "Rob Frampton <rob.g.frampton@gmail.com> (https://github.com/Robert-Frampton)",
+  "repository": "Robert-Frampton/gulp-r2-css",
   "files": [
     "index.js"
   ],
   "keywords": [
     "gulpplugin"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "R2": "^1.4.3",
     "gulp-util": "^3.0.7",
