@@ -1,6 +1,6 @@
 {
   "name": "gulp-liferay-r2-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A gulp wrapper for Liferay's fork of R2",
   "main": "index.js",
   "scripts": {
