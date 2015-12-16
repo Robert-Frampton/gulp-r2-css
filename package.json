@@ -7,6 +7,7 @@
     "test": "mocha"
   },
   "author": "Rob Frampton <rob.g.frampton@gmail.com> (https://github.com/Robert-Frampton)",
+  "repository": "Robert-Frampton/gulp-r2-css/tree/liferay-r2",
   "files": [
     "index.js"
   ],
